@@ -1,13 +1,9 @@
 import React from "react";
-import Header from "./components/Header.jsx";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
   return (
-    <div className="bg-gray-100 min-h-screen">
-      <div>
-        <Header/>
-      </div>
-    </div>
+    <LoginPage />
   );
 }
 
